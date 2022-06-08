@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8>
+	<title>Ememem</title>
+	<style>
+		body {
+			background: #080808;
+		}
+
+		.item {
+			width: 31vw;
+			height: 40vh;
+			margin: 10px auto;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.split {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			column-count: 3;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="demo-normal">
+		<div class="split">
+			<div class='div1 item'></div>
+			<div class='div2 item'></div>
+			<div class='div3 item'></div>
+			<div class='div4 item'></div>
+			<div class='div5 item'></div>
+			<div class='div6 item'></div>
+		</div>
+	</div>
+
+	<script src="./example/js/gsap.min.js"></script>
+	<script src="./src/main.js" type="module"></script>
+</body>
+
+</html>
